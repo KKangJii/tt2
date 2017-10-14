@@ -27,7 +27,7 @@ public class BoardController {
 	public ModelAndView list() {
 		List<BoardVO> BoardList = service.selectAllBoard();
 		
-		System.out.println("구웨에에에에엑");
+		
 		
 		ModelAndView mav = new ModelAndView();
 		
